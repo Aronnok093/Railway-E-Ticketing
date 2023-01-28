@@ -1,0 +1,80 @@
+﻿@model E_TICKET.Models.TrainInformation
+<!DOCTYPE html>
+<style>
+    .main {
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;
+        height: auto;
+        background-color: aquamarine;
+        box-shadow: 5px 10px #888888;
+    }
+
+    .search_ {
+        font-family: "Gill Sans", sans-serif;
+    }
+
+    .view_ {
+        font-family: "Gill Sans", sans-serif;
+    }
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<html>
+<head>
+    <title>Train Info</title>
+</head>
+<body>
+    <div class="main">
+        <div class="search_">
+            <form id="#" method="post">
+
+                <div class="search_box">
+                    <label for="TrainInfo">Choose a Train:</label>
+                    <select name="Train_Name" id="TrainInfo">
+                        @foreach (var item in TempData["a"] as List<E_TICKET.Models.TrainInformation>)
+                        {
+                            <option value="@Html.DisplayFor(modelItem => item.Train_Name)" name="From">@Html.DisplayFor(modelItem => item.Train_Name)</option>
+                        }
+                    </select>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="view_">
+            <h2>Search Result</h2>
+            <div class="table_">
+                <table style="width:100%">
+                    <tr>
+                        <th>Train No:</th>
+                        <th>Train Name</th>
+                        <th>Off Day</th>
+                        <th>Departure Station</th>
+                        <th>Departure Time</th>
+                        <th>Arrival Station</th>
+                        <th>Arrival Time</th>
+                    </tr>
+                    @foreach (var item in TempData["b"] as List<E_TICKET.Models.TrainInformation>)
+                    {
+
+                     <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Train_No)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Train_Name)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Offday)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Departure_Station)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Departure_time)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Arrival_Station)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Arrival_Time)</td>
+                            
+                    </tr>
+
+                     }
+                </table>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

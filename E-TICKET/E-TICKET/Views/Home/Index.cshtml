@@ -1,0 +1,185 @@
+﻿@model E_TICKET.Models.Home
+
+<!DOCTYPE html>
+<style>
+    /*for main div*/
+
+    .main {
+        margin: auto;
+        width: 60%;
+        border: 3px solid #73AD21;
+        padding: 3px;
+        height: 880px;
+        background-color: #00cc44;
+        border-radius: 20px;
+        /* background-color: green; */
+    }
+
+    /*for center img*/
+    .main_one{
+        background-image:url(../../photo/home_background.jpg);
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.89;
+        /* background-color:rebeccapurple; */
+    }
+    h3{
+        margin-left: 200px;
+        padding: 10px;
+        position: relative;
+        font-family: "Lucida Console", "Courier New", monospace;
+        /*background-color:yellow;*/
+    }
+    .form{
+        font-family: "Lucida Console", "Courier New", monospace;
+        color: crimson;
+        font-weight: bold;
+    }
+    select{
+        width: 200px;
+        height: 30px;
+    }
+    .form{
+        width: 600px;
+        height: 600px;
+        align-items: center;
+        margin-left: 30px;
+        margin-top: 250px;
+    }
+
+    .contain_one{
+        float: left;
+        padding: 10px;
+    }
+    .contain_two{
+        float: left;
+        padding: 10px;
+    }
+    .contain_three{
+        float: left;
+        padding: 10px;
+    }
+    .contain_four{
+        float: left;
+        padding: 10px;
+        margin-left: 45px;
+    }
+    .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .btn-default{
+        background-color: rgb(8, 133, 18);
+        color: black;
+        border: 2px solid #4CAF50;
+        width:300px;
+        height: 40px;
+        margin-top: 70px;
+        margin-left: 110px;
+
+    }
+    .btn-default:hover{
+        background-color: #4CAF50;
+        color: white;
+    }
+
+</style>
+<html>
+<head>
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main_one">
+            <div class="head_text">
+                <h3>Welcome to E-TICKET</h3>
+            </div>
+            <div class="form">
+
+                <form action="#" method="post">
+
+                    <div class="contain_one">
+                        <label for="city_name">From</label>
+                        <select id="city_name" name="From">
+
+                            <option value="From" name="From">From</option>
+                            @foreach (var item in TempData["a"] as List<E_TICKET.Models.Home>)
+                            {
+                                <option value="@Html.DisplayFor(modelItem => item.From)" name="From">@Html.DisplayFor(modelItem => item.From)</option>
+                            }
+
+                        </select>
+                    </div>
+
+                    <div class="contain_two">
+                        <label for="city_name">To</label>
+                        <select id="city_name" name="To">
+
+                            <option value="From" name="From">To</option>
+                            @foreach (var item in TempData["a"] as List<E_TICKET.Models.Home>)
+                            {
+                                <option value="@Html.DisplayFor(modelItem => item.From)" name="To">@Html.DisplayFor(modelItem => item.From)</option>
+                            }
+
+                        </select>
+                    </div>
+
+                    <div class="contain_three">
+                        <label for="Date">Date</label>
+                        <input type="date" id="Date" name="Date">
+                    </div>
+
+                    <div class="contain_four">
+                        <label for="Sit_type">Class</label>
+                        <select id="Sit_type" name="Sit_class">
+                            <option value="Sit_class" name="Sit_class">Class</option>
+                            <option value="AC_B" name="Sit_class">AC_B</option>
+                            <option value="AC_S" name="Sit_class">AC_S</option>
+                            <option value="SNIGDHA" name="Sit_class">SNIGDHA</option>
+                            <option value="F_BERTH" name="Sit_class">F_BERTH</option>
+                            <option value="F_SEAT" name="Sit_class">F_SEAT</option>
+                            <option value="F_CHAIR" name="Sit_class">F_CHAIR</option>
+                            <option value="S_CHAIR" name="Sit_class">S_CHAIR</option>
+                            <option value="SHOVAN" name="Sit_class">SHOVAN</option>
+                            <option value="SHULOV" name="Sit_class">SHULOV</option>
+                            <option value="AC_CHAIR" name="Sit_class">AC_CHAIR</option>
+
+                        </select>
+                    </div>
+
+                    <div class="btn">
+                        <input type="submit" value="SEARCH TRAINS" class="btn btn-default" />
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <center>
+        @if (ViewBag.Message != null)
+        {
+            <script type="text/javascript">
+                    window.onload = function () {
+                    alert("@ViewBag.Message");
+                };
+            </script>
+        }
+    </center>
+
+</body>
+</html>

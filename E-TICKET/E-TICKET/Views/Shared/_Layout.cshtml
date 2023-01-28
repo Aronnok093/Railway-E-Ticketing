@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/Content/header.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title E-TICKET</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <div class="header">
+        <a href="/Home"><img src="~/photo/logo.png" alt="Girl in a jacket" width="70" height="50" /></a>
+        <div class="header-right">
+            <a class="active" href="/Home">Home</a>
+            <a href="/Home/Login">Login</a>
+            <a href="/Home/Resister">Resister</a>
+            <a href="/Home/TrainInformation">Train Information</a>
+            <a href="/Home/ContactUs">Contact US</a>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - AUST CSE 44 B2 ID:190204093,190204111,190204099,190204113</p>
+        </footer>
+    </div>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
