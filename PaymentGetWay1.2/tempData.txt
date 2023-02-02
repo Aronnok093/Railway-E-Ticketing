@@ -1,0 +1,4 @@
+pip install selenium==4.2.0 --force-reinstall
+pip install pypyodbc
+form link->https://forms.gle/hHG8iDnm6T9NMDveA
+spreed sheet->https://docs.google.com/spreadsheets/d/15hP7KX-svbiOJBX8tpLikG8Vk6ORuqbMjtWsIAtKSzw/edit?usp=sharing

@@ -62,8 +62,8 @@ D:\AUST\Project\E-TICKET\E-TICKET\bin\System.Web.Webpages.Razor.xml
 D:\AUST\Project\E-TICKET\E-TICKET\bin\System.Web.Helpers.xml
 D:\AUST\Project\E-TICKET\E-TICKET\bin\System.Web.Mvc.xml
 D:\AUST\Project\E-TICKET\E-TICKET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\AUST\Project\E-TICKET\E-TICKET\obj\Debug\E-TICKET.csprojAssemblyReference.cache
 D:\AUST\Project\E-TICKET\E-TICKET\obj\Debug\E-TICKET.csproj.CoreCompileInputs.cache
 D:\AUST\Project\E-TICKET\E-TICKET\obj\Debug\E-TICKET.csproj.CopyComplete
 D:\AUST\Project\E-TICKET\E-TICKET\obj\Debug\E-TICKET.dll
 D:\AUST\Project\E-TICKET\E-TICKET\obj\Debug\E-TICKET.pdb
+D:\AUST\Project\E-TICKET\E-TICKET\obj\Debug\E-TICKET.csprojAssemblyReference.cache

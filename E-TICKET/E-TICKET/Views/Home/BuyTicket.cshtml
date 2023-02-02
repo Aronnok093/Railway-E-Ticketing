@@ -1,0 +1,38 @@
+﻿@model E_TICKET.Models.BuyTicket
+
+<!DOCTYPE html>
+
+<style>
+    .main {
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;
+        background-color: #e6e6e6;
+        text-align: center;
+    }
+</style>
+<html>
+<body>
+    <div class="main">
+        <h1>Buy Your Ticket</h1>
+        <form id="#" method="post">
+            <label for="tckid">Ticket ID:</label><br>
+            <input type="text" id="tckid" name="Ticket_ID" value=""><br>
+            <label for="mobile">Mobile Number:</label><br>
+            <input type="text" id="lname" name="mobile" value="mobile"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <center>
+        @if (ViewBag.Message != null)
+        {
+            <script type="text/javascript">
+                    window.onload = function () {
+                    alert("@ViewBag.Message");
+                };
+            </script>
+        }
+    </center>
+</body>
+</html>

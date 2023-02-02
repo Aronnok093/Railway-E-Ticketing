@@ -1,0 +1,1171 @@
+1675348241681	geckodriver	INFO	Listening on 127.0.0.1:4416
+1675348246444	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4417" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilepf4ekB"
+1675348246741	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675348246745	Marionette	INFO	Listening on port 4426
+Read port: 4426
+WebDriver BiDi listening on ws://127.0.0.1:4417
+1675348246818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+DevTools listening on ws://127.0.0.1:4417/devtools/browser/baaaba39-4385-4d30-aede-e041f80e95a9
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860757
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860756
+1675348283807	Marionette	INFO	Stopped listening on port 4426
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 14968, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675348312108	geckodriver	INFO	Listening on 127.0.0.1:4513
+1675348316766	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4514" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilepz3tOy"
+1675348316990	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675348316992	Marionette	INFO	Listening on port 4523
+WebDriver BiDi listening on ws://127.0.0.1:4514
+Read port: 4523
+1675348317167	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:4514/devtools/browser/25c6909d-1095-46b4-b8bd-8dfeaa88071c
+JavaScript error: undefined, line 0: Error: An unexpected error occurred
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860764
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860763
+1675348331069	Marionette	INFO	Stopped listening on port 4523
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 264: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 90: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "can't access dead object" {file: "resource://gre/modules/Push.sys.mjs" line: 264}]'[JavaScript Error: "can't access dead object" {file: "resource://gre/modules/Push.sys.mjs" line: 264}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675348335950	geckodriver	INFO	Listening on 127.0.0.1:4588
+1675348340577	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4589" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofiless462R"
+1675348340788	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675348340791	Marionette	INFO	Listening on port 4598
+Read port: 4598
+WebDriver BiDi listening on ws://127.0.0.1:4589
+1675348340845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+DevTools listening on ws://127.0.0.1:4589/devtools/browser/3f987629-cb6f-4500-8b1c-d75e084a22cd
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860758
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860756
+1675348420208	Marionette	INFO	Stopped listening on port 4598
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+1675349697807	geckodriver	INFO	Listening on 127.0.0.1:4927
+1675349702484	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4928" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileFOOqVa"
+1675349702702	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675349702704	Marionette	INFO	Listening on port 4937
+WebDriver BiDi listening on ws://127.0.0.1:4928
+Read port: 4937
+1675349702884	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:4928/devtools/browser/63fbf7d0-3c9f-4631-9560-250ad4cfe6e6
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofileFOOqVa\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860757
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860754
+1675350201673	Marionette	INFO	Stopped listening on port 4937
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+ww.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofilevkHFTv\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860753
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860751
+1675350200781	Marionette	INFO	Stopped listening on port 5027
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+xecuteInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofileebk7Kk\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860769
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860767
+1675350200050	Marionette	INFO	Stopped listening on port 5111
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+[Parent 26536, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+rning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860773
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860771
+1675350199215	Marionette	INFO	Stopped listening on port 5257
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+[Parent 22424, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+rning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860753
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860752
+1675350198533	Marionette	INFO	Stopped listening on port 5337
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+[Parent 23528, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+rning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860754
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860752
+1675350197774	Marionette	INFO	Stopped listening on port 5428
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675350259790	geckodriver	INFO	Listening on 127.0.0.1:5527
+1675350264487	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5528" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileBgeyfP"
+1675350264702	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675350264705	Marionette	INFO	Listening on port 5537
+Read port: 5537
+WebDriver BiDi listening on ws://127.0.0.1:5528
+1675350264756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:5528/devtools/browser/7f275b40-312a-4591-a309-75cbfd41ca3d
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860758
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860756
+1675350328600	Marionette	INFO	Stopped listening on port 5537
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+1675350329405	geckodriver	INFO	Listening on 127.0.0.1:5694
+1675350334031	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5695" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileGMhCka"
+1675350334252	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675350334255	Marionette	INFO	Listening on port 5705
+Read port: 5705
+WebDriver BiDi listening on ws://127.0.0.1:5695
+1675350334314	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:5695/devtools/browser/8b2db41c-ca4b-4056-9cd3-9e78d18f41b4
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+[2023-02-02T15:07:00Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-02T15:07:00Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-02T15:07:00Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-02T15:07:00Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofileGMhCka\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860757
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860754
+1675351208505	Marionette	INFO	Stopped listening on port 5705
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 28032, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+ser/f748d41a-ddff-4843-b965-9d8048527d8b
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofilejtyvtD\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860762
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860759
+1675351209700	Marionette	INFO	Stopped listening on port 5845
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+nsion://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofileFd9N0m\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860755
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860753
+1675351210637	Marionette	INFO	Stopped listening on port 1779
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+nsion://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofilexvJBtN\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860763
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860761
+1675351211615	Marionette	INFO	Stopped listening on port 1865
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+nsion://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofileDbt2zr\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860756
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860754
+1675351212567	Marionette	INFO	Stopped listening on port 1955
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+anager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofileF48O3M\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860747
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860745
+1675351213433	Marionette	INFO	Stopped listening on port 2087
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+1675352642730	geckodriver	INFO	Listening on 127.0.0.1:2512
+1675352647471	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2513" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileDLmfyS"
+1675352647749	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675352647752	Marionette	INFO	Listening on port 2522
+Read port: 2522
+WebDriver BiDi listening on ws://127.0.0.1:2513
+1675352647831	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+DevTools listening on ws://127.0.0.1:2513/devtools/browser/7b98cfc3-64f7-40d5-bc24-34a427ae0d04
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860744
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860742
+1675352676934	Marionette	INFO	Stopped listening on port 2522
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675353103301	geckodriver	INFO	Listening on 127.0.0.1:2620
+1675353107963	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2621" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileQxzZyl"
+1675353108187	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675353108190	Marionette	INFO	Listening on port 2631
+WebDriver BiDi listening on ws://127.0.0.1:2621
+Read port: 2631
+1675353108375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+DevTools listening on ws://127.0.0.1:2621/devtools/browser/e3a308d3-6fab-40ec-a51c-5a137f0f61c2
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860753
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860750
+1675353115131	Marionette	INFO	Stopped listening on port 2631
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+1675353115173	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 26144, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+1675354361139	geckodriver	INFO	Listening on 127.0.0.1:2826
+1675354365819	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2827" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilejhHZar"
+1675354366037	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675354366040	Marionette	INFO	Listening on port 2836
+Read port: 2836
+WebDriver BiDi listening on ws://127.0.0.1:2827
+1675354366097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:2827/devtools/browser/6f66469f-14bf-4b8d-8032-eb0542f521d3
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860754
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860751
+1675354386508	Marionette	INFO	Stopped listening on port 2836
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675354497917	geckodriver	INFO	Listening on 127.0.0.1:2924
+1675354502586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2925" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile5fKS1m"
+1675354502804	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675354502807	Marionette	INFO	Listening on port 2934
+WebDriver BiDi listening on ws://127.0.0.1:2925
+Read port: 2934
+1675354502983	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+DevTools listening on ws://127.0.0.1:2925/devtools/browser/e7ced7c7-56e0-49da-be9b-7f842e0aa07e
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860748
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860746
+1675354506008	Marionette	INFO	Stopped listening on port 2934
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675354506042	Sync.ErrorHandler	ERROR	Sync encountered a login error
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+1675354887746	geckodriver	INFO	Listening on 127.0.0.1:3014
+1675354892405	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3015" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileLT3kpF"
+1675354892613	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675354892616	Marionette	INFO	Listening on port 3024
+Read port: 3024
+WebDriver BiDi listening on ws://127.0.0.1:3015
+1675354892669	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+DevTools listening on ws://127.0.0.1:3015/devtools/browser/5c0b8522-eb6b-443b-a97f-22f3fe1b4ba0
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 92: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860759
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860761
+1675354895220	Marionette	INFO	Stopped listening on port 3024
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675354895256	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:41:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:64:16
+_tokenServerExchangeRequest@tokenserverclient.js:243:13
+1675354895257	Sync.ErrorHandler	ERROR	Sync encountered a login error
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+[Parent 25824, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+1675355176628	geckodriver	INFO	Listening on 127.0.0.1:3181
+1675355181421	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3182" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileFWjZNJ"
+1675355181695	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675355181699	Marionette	INFO	Listening on port 3192
+WebDriver BiDi listening on ws://127.0.0.1:3182
+Read port: 3192
+1675355181876	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:3182/devtools/browser/9406ae2e-d83a-4780-b8ea-2443b83f3130
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860756
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860754
+1675355184139	Marionette	INFO	Stopped listening on port 3192
+Dynamically enable window occlusion 1
+[Parent 22728, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675355184176	FirefoxAccounts	ERROR	error POSTing /oauth/token: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675355184176	FirefoxAccounts	ERROR	FxA rejecting with error UNKNOWN_ERROR, details: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675355184177	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: Error: UNKNOWN_ERROR(resource://gre/modules/FxAccounts.jsm:1561:18) JS Stack trace: _error@FxAccounts.jsm:1561:18
+_errorToErrorClass@FxAccounts.jsm:1553:17
+getOAuthToken@FxAccounts.jsm:509:28
+1675355184177	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1675355184179	FirefoxAccounts	ERROR	error POSTing /oauth/destroy: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+[2023-02-02T16:26:24Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2023-02-02T16:26:24Z ERROR viaduct::backend::ffi] Missing HTTP status
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+1675355303962	geckodriver	INFO	Listening on 127.0.0.1:3276
+1675355308683	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3277" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileIMN13v"
+1675355308931	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675355308935	Marionette	INFO	Listening on port 3295
+WebDriver BiDi listening on ws://127.0.0.1:3277
+Read port: 3295
+1675355309112	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:3277/devtools/browser/f31244ed-197b-4e5f-8813-ff74b712a8b1
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860761
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860758
+1675355370468	Marionette	INFO	Stopped listening on port 3295
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 264: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 90: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "can't access dead object" {file: "resource://gre/modules/Push.sys.mjs" line: 264}]'[JavaScript Error: "can't access dead object" {file: "resource://gre/modules/Push.sys.mjs" line: 264}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+1675355389394	geckodriver	INFO	Listening on 127.0.0.1:3373
+1675355394064	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3374" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileV0nLJl"
+1675355394284	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675355394286	Marionette	INFO	Listening on port 3383
+Read port: 3383
+WebDriver BiDi listening on ws://127.0.0.1:3374
+1675355394337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:3374/devtools/browser/7eea097b-84c1-4c7e-841c-d79b3fa9d2e6
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860762
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860760
+1675355400339	Marionette	INFO	Stopped listening on port 3383
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+1675355400373	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+1675356131383	geckodriver	INFO	Listening on 127.0.0.1:7571
+1675356136142	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7572" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileMWwaz9"
+1675356136382	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675356136385	Marionette	INFO	Listening on port 7581
+WebDriver BiDi listening on ws://127.0.0.1:7572
+Read port: 7581
+1675356136569	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:7572/devtools/browser/62ec91ca-d2b2-40a0-93f8-0c2550d50929
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860764
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860762
+1675356144229	Marionette	INFO	Stopped listening on port 7581
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675356365067	geckodriver	INFO	Listening on 127.0.0.1:7708
+1675356369755	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7709" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile7nC4he"
+1675356369978	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675356369981	Marionette	INFO	Listening on port 7718
+WebDriver BiDi listening on ws://127.0.0.1:7709
+Read port: 7718
+1675356370168	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:7709/devtools/browser/aa519af2-6e5f-45b1-b622-e579a3cec6e9
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860763
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860761
+1675356382328	Marionette	INFO	Stopped listening on port 7718
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+[Parent 6732, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675356635631	geckodriver	INFO	Listening on 127.0.0.1:7818
+1675356640310	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7819" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilem7jBHf"
+1675356640518	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675356640522	Marionette	INFO	Listening on port 7828
+Read port: 7828
+WebDriver BiDi listening on ws://127.0.0.1:7819
+1675356640589	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+DevTools listening on ws://127.0.0.1:7819/devtools/browser/00ce8087-b281-4b71-bad1-59ac3177249d
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860755
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860753
+1675356647317	Marionette	INFO	Stopped listening on port 7828
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 264: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 90: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "can't access dead object" {file: "resource://gre/modules/Push.sys.mjs" line: 264}]'[JavaScript Error: "can't access dead object" {file: "resource://gre/modules/Push.sys.mjs" line: 264}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+1675356647345	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+1675359474370	geckodriver	INFO	Listening on 127.0.0.1:3254
+1675359479070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3255" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilexnAXQk"
+1675359479303	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675359479307	Marionette	INFO	Listening on port 3264
+WebDriver BiDi listening on ws://127.0.0.1:3255
+Read port: 3264
+1675359479477	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:3255/devtools/browser/a5e82bca-9f7b-41a0-b9e0-60ffd9c0c619
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b, line 1128: Error: Unknown message (Attempt: 1)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofilexnAXQk\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofilexnAXQk\thumbnails) because it does not exist
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofilexnAXQk\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860759
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860756
+1675366937768	Marionette	INFO	Stopped listening on port 3264
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 30168, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+es/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofilePsK1a5\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860754
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860751
+1675366937094	Marionette	INFO	Stopped listening on port 5406
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+anager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofileYK5WQu\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860759
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860757
+1675366936452	Marionette	INFO	Stopped listening on port 5568
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+ Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: SucceJavaScript error: https://www.gstatic.com/_/messagesweb/_/jJavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTvJavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860755
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860752
+1675366225151	Marionette	INFO	Stopped listening on port 5672
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 264: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 90: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "can't access dead object" {file: "resource://gre/modules/Push.sys.mjs" line: 264}]'[JavaScript Error: "can't access dead object" {file: "resource://gre/modules/Push.sys.mjs" line: 264}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+o fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675366461145	geckodriver	INFO	Listening on 127.0.0.1:5853
+1675366465837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5854" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileletSI4"
+1675366466064	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675366466068	Marionette	INFO	Listening on port 5863
+WebDriver BiDi listening on ws://127.0.0.1:5854
+Read port: 5863
+1675366466269	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+DevTools listening on ws://127.0.0.1:5854/devtools/browser/9b61d327-4781-4771-88f3-2de244ff890c
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofileletSI4\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860768
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860765
+1675366935740	Marionette	INFO	Stopped listening on port 5863
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+s not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860743
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860741
+1675366702675	Marionette	INFO	Stopped listening on port 6083
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675366702716	Sync.ErrorHandler	ERROR	Sync encountered a login error
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+1675366752974	geckodriver	INFO	Listening on 127.0.0.1:6147
+1675366757650	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6148" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile8PjSpq"
+1675366757841	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675366757845	Marionette	INFO	Listening on port 6157
+Read port: 6157
+WebDriver BiDi listening on ws://127.0.0.1:6148
+1675366757898	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+DevTools listening on ws://127.0.0.1:6148/devtools/browser/022d46f6-5a13-4b0f-904f-1d247ce6677a
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860756
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860754
+1675366764601	Marionette	INFO	Stopped listening on port 6157
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675366764639	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+1675367217337	geckodriver	INFO	Listening on 127.0.0.1:6325
+1675367222044	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6326" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileUQ3k3I"
+1675367222332	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675367222337	Marionette	INFO	Listening on port 6335
+Read port: 6335
+WebDriver BiDi listening on ws://127.0.0.1:6326
+1675367222410	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+DevTools listening on ws://127.0.0.1:6326/devtools/browser/82a13de9-c4bc-443f-a0cc-5d325ef6c7ee
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860757
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860755
+1675367230019	Marionette	INFO	Stopped listening on port 6335
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+1675367230049	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+1675367426049	geckodriver	INFO	Listening on 127.0.0.1:6459
+1675367430710	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6460" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofiletfovXO"
+1675367430919	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675367430922	Marionette	INFO	Listening on port 6471
+Read port: 6471
+WebDriver BiDi listening on ws://127.0.0.1:6460
+1675367430981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:6460/devtools/browser/594afe48-07f0-4e7d-9099-738ce5bd7f9b
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860757
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860755
+1675367437516	Marionette	INFO	Stopped listening on port 6471
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675367437570	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+1675368904164	geckodriver	INFO	Listening on 127.0.0.1:6769
+1675368908898	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6770" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileASSRmk"
+1675368909171	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675368909175	Marionette	INFO	Listening on port 6779
+WebDriver BiDi listening on ws://127.0.0.1:6770
+Read port: 6779
+1675368909338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:6770/devtools/browser/e7ddd3fc-7d6a-48a7-a401-ad17514f6abd
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofileASSRmk\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860761
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860758
+1675370387107	Marionette	INFO	Stopped listening on port 6779
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 27820, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
+rning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860756
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860754
+1675369212475	Marionette	INFO	Stopped listening on port 6973
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675369212519	FirefoxAccounts	ERROR	error POSTing /oauth/token: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675369212519	FirefoxAccounts	ERROR	FxA rejecting with error UNKNOWN_ERROR, details: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675369212520	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: Error: UNKNOWN_ERROR(resource://gre/modules/FxAccounts.jsm:1561:18) JS Stack trace: _error@FxAccounts.jsm:1561:18
+_errorToErrorClass@FxAccounts.jsm:1553:17
+getOAuthToken@FxAccounts.jsm:509:28
+1675369212521	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1675369212524	FirefoxAccounts	ERROR	error POSTing /oauth/destroy: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675369212524	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675369212524	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675369212525	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675369212525	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675369212525	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675369212525	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675369212526	FirefoxAccounts	ERROR	error POSTing /account/device: {"error":{},"errorString":"[Exception... \"NS_ERROR_NOT_AVAILABLE\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675369212526	FirefoxAccounts	ERROR	device registration failed: {"error":{},"errorString":"[Exception... \"NS_ERROR_NOT_AVAILABLE\"  nsresult: \"0x80040111 (NS_ERROR_NOT_AVAILABLE)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+[2023-02-02T20:20:12Z ERROR viaduct::backend::ffi] Missing HTTP status
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+[2023-02-02T20:20:12Z ERROR viaduct::backend::ffi] Missing HTTP status
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+1675370832816	geckodriver	INFO	Listening on 127.0.0.1:7228
+1675370837475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7229" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilereAvy9"
+1675370837694	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675370837697	Marionette	INFO	Listening on port 7238
+WebDriver BiDi listening on ws://127.0.0.1:7229
+Read port: 7238
+1675370837878	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:7229/devtools/browser/4ff97148-6640-4a14-b23c-ed749a5bbf5e
+JavaScript error: undefined, line 0: Error: An unexpected error occurred
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860763
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860761
+1675370840123	Marionette	INFO	Stopped listening on port 7238
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675370840154	FirefoxAccounts	ERROR	error POSTing /oauth/token: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675370840154	FirefoxAccounts	ERROR	FxA rejecting with error UNKNOWN_ERROR, details: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675370840154	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: Error: UNKNOWN_ERROR(resource://gre/modules/FxAccounts.jsm:1561:18) JS Stack trace: _error@FxAccounts.jsm:1561:18
+_errorToErrorClass@FxAccounts.jsm:1553:17
+getOAuthToken@FxAccounts.jsm:509:28
+1675370840155	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1675370840157	FirefoxAccounts	ERROR	error POSTing /oauth/destroy: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675370840158	FirefoxAccounts	ERROR	error POSTing /oauth/token: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675370840158	FirefoxAccounts	ERROR	Background refresh of profile failed: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675370840158	FirefoxAccounts	ERROR	Background refresh of profile failed: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675370840158	FirefoxAccounts	ERROR	Background refresh of profile failed: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675370840158	FirefoxAccounts	ERROR	Background refresh of profile failed: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675370840158	FirefoxAccounts	ERROR	Background refresh of profile failed: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675370840158	FirefoxAccounts	ERROR	Background refresh of profile failed: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+1675371001777	geckodriver	INFO	Listening on 127.0.0.1:7304
+1675371006539	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7305" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileqDbcFV"
+1675371006759	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675371006763	Marionette	INFO	Listening on port 7314
+WebDriver BiDi listening on ws://127.0.0.1:7305
+Read port: 7314
+1675371006937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:7305/devtools/browser/26c2e490-deb1-4b5c-aa7b-88339438be17
+JavaScript error: undefined, line 0: Error: An unexpected error occurred
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1675371008459	Marionette	INFO	Stopped listening on port 7314
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675371008490	FirefoxAccounts	ERROR	error GETing /account/devices?filterIdleDevicesTimestamp=1673556607741: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675371008491	FirefoxAccounts	ERROR	error POSTing /oauth/destroy: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675371008492	FirefoxAccounts	ERROR	error POSTing /oauth/token: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675371008492	FirefoxAccounts	ERROR	FxA rejecting with error UNKNOWN_ERROR, details: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675371008492	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: Error: UNKNOWN_ERROR(resource://gre/modules/FxAccounts.jsm:1561:18) JS Stack trace: _error@FxAccounts.jsm:1561:18
+_errorToErrorClass@FxAccounts.jsm:1553:17
+getOAuthToken@FxAccounts.jsm:509:28
+1675371008493	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1675371008494	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675371008494	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675371008494	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675371008494	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675371008494	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675371008495	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860766
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860764
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+[2023-02-02T20:50:08Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2023-02-02T20:50:08Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2023-02-02T20:50:08Z ERROR viaduct::backend::ffi] Missing HTTP status
+1675371196499	geckodriver	INFO	Listening on 127.0.0.1:7379
+1675371201213	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7380" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileX01kei"
+1675371201432	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675371201436	Marionette	INFO	Listening on port 7400
+WebDriver BiDi listening on ws://127.0.0.1:7380
+Read port: 7400
+1675371201632	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+DevTools listening on ws://127.0.0.1:7380/devtools/browser/79950d66-3702-4edf-9461-5959f15c637f
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1675371202958	Marionette	INFO	Stopped listening on port 7400
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675371202985	FirefoxAccounts	ERROR	error GETing /account/devices?filterIdleDevicesTimestamp=1673556802379: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675371202985	FirefoxAccounts	ERROR	error POSTing /oauth/destroy: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675371202986	FirefoxAccounts	ERROR	error POSTing /oauth/token: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675371202986	FirefoxAccounts	ERROR	FxA rejecting with error UNKNOWN_ERROR, details: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675371202986	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: Error: UNKNOWN_ERROR(resource://gre/modules/FxAccounts.jsm:1561:18) JS Stack trace: _error@FxAccounts.jsm:1561:18
+_errorToErrorClass@FxAccounts.jsm:1553:17
+getOAuthToken@FxAccounts.jsm:509:28
+1675371202986	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1675371202988	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675371202988	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675371202988	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675371202988	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675371202988	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675371202988	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860753
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860751
+[2023-02-02T20:53:23Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2023-02-02T20:53:23Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2023-02-02T20:53:23Z ERROR viaduct::backend::ffi] Missing HTTP status
+1675371727735	geckodriver	INFO	Listening on 127.0.0.1:6132
+1675371732466	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6133" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilepBzTsZ"
+1675371732727	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675371732730	Marionette	INFO	Listening on port 6142
+WebDriver BiDi listening on ws://127.0.0.1:6133
+Read port: 6142
+1675371732966	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+DevTools listening on ws://127.0.0.1:6133/devtools/browser/63b2b328-2122-497c-a5c2-360860f94917
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860764
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860762
+1675371754426	Marionette	INFO	Stopped listening on port 6142
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+[Parent 8500, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675372202061	geckodriver	INFO	Listening on 127.0.0.1:6307
+1675372206702	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6308" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileblpXSX"
+1675372206904	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675372206907	Marionette	INFO	Listening on port 6317
+Read port: 6317
+WebDriver BiDi listening on ws://127.0.0.1:6308
+1675372206960	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:6308/devtools/browser/0f27b0b7-d89c-4059-8c8c-a2af4957dca6
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860761
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860759
+1675372215925	Marionette	INFO	Stopped listening on port 6317
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+[Parent 1576, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:583
+[Parent 1576, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675372469073	geckodriver	INFO	Listening on 127.0.0.1:6425
+1675372473726	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6426" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileWtcwKW"
+1675372473936	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675372473939	Marionette	INFO	Listening on port 6436
+Read port: 6436
+WebDriver BiDi listening on ws://127.0.0.1:6426
+1675372473993	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:6426/devtools/browser/d3c443bb-2abd-47e4-857f-4e7f7c791409
+JavaScript error: undefined, line 0: Error: An unexpected error occurred
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860770
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860768
+1675372487573	Marionette	INFO	Stopped listening on port 6436
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675372651150	geckodriver	INFO	Listening on 127.0.0.1:6537
+1675372655837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6538" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileEeuWlr"
+1675372656071	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675372656074	Marionette	INFO	Listening on port 6550
+WebDriver BiDi listening on ws://127.0.0.1:6538
+Read port: 6550
+1675372656247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+DevTools listening on ws://127.0.0.1:6538/devtools/browser/1578eb89-94fa-41d1-b91a-064af61bd9b0
+JavaScript error: undefined, line 0: Error: An unexpected error occurred
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860764
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860762
+1675372674659	Marionette	INFO	Stopped listening on port 6550
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675373341325	geckodriver	INFO	Listening on 127.0.0.1:6709
+1675373345996	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6710" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile7bpJl3"
+1675373346213	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675373346216	Marionette	INFO	Listening on port 6719
+Read port: 6719
+WebDriver BiDi listening on ws://127.0.0.1:6710
+1675373346269	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+DevTools listening on ws://127.0.0.1:6710/devtools/browser/1c2fb0e9-13ab-42d6-84c0-e15622bd55df
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860762
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860760
+1675373358951	Marionette	INFO	Stopped listening on port 6719
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675373518769	geckodriver	INFO	Listening on 127.0.0.1:6824
+1675373523435	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6825" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilea2889G"
+1675373523682	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675373523686	Marionette	INFO	Listening on port 6834
+WebDriver BiDi listening on ws://127.0.0.1:6825
+Read port: 6834
+1675373523861	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+DevTools listening on ws://127.0.0.1:6825/devtools/browser/20ad56a0-1218-4230-b30b-a3fe3489195e
+JavaScript error: undefined, line 0: Error: An unexpected error occurred
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860771
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860768
+1675373525537	Marionette	INFO	Stopped listening on port 6834
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675373525572	FirefoxAccounts	ERROR	error GETing /account/devices?filterIdleDevicesTimestamp=1673559124666: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675373525573	FirefoxAccounts	ERROR	error POSTing /oauth/destroy: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675373525574	FirefoxAccounts	ERROR	error POSTing /oauth/token: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675373525574	FirefoxAccounts	ERROR	FxA rejecting with error UNKNOWN_ERROR, details: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675373525574	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: Error: UNKNOWN_ERROR(resource://gre/modules/FxAccounts.jsm:1561:18) JS Stack trace: _error@FxAccounts.jsm:1561:18
+_errorToErrorClass@FxAccounts.jsm:1553:17
+getOAuthToken@FxAccounts.jsm:509:28
+1675373525575	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1675373525576	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675373525576	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675373525576	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675373525576	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675373525576	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675373525576	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+[2023-02-02T21:32:05Z ERROR viaduct::backend::ffi] Missing HTTP status
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+[2023-02-02T21:32:05Z ERROR viaduct::backend::ffi] Missing HTTP status
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+1675373753769	geckodriver	INFO	Listening on 127.0.0.1:6933
+1675373758436	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6934" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilebFS6k5"
+1675373758651	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675373758654	Marionette	INFO	Listening on port 6943
+WebDriver BiDi listening on ws://127.0.0.1:6934
+Read port: 6943
+1675373758839	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+DevTools listening on ws://127.0.0.1:6934/devtools/browser/79698293-9bce-44ab-9dce-67f8d229e729
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1675373760101	Marionette	INFO	Stopped listening on port 6943
+Dynamically enable window occlusion 1
+1675373760129	FirefoxAccounts	ERROR	error GETing /account/devices?filterIdleDevicesTimestamp=1673559359624: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675373760130	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675373760130	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675373760130	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675373760130	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675373760131	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:41:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:64:16
+_tokenServerExchangeRequest@tokenserverclient.js:243:13
+1675373760132	Sync.ErrorHandler	ERROR	Sync encountered a login error
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860757
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860755
+[2023-02-02T21:36:00Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2023-02-02T21:36:00Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2023-02-02T21:36:00Z ERROR viaduct::backend::ffi] Missing HTTP status
+1675373985208	geckodriver	INFO	Listening on 127.0.0.1:7001
+1675373989863	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7002" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileHod4Ic"
+1675373990076	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675373990079	Marionette	INFO	Listening on port 7011
+Read port: 7011
+WebDriver BiDi listening on ws://127.0.0.1:7002
+1675373990133	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+DevTools listening on ws://127.0.0.1:7002/devtools/browser/484ed472-4ede-4eab-ac0e-ea8543b0f60b
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+1675373991360	Marionette	INFO	Stopped listening on port 7011
+Dynamically enable window occlusion 1
+1675373991443	FirefoxAccounts	ERROR	error GETing /account/devices?filterIdleDevicesTimestamp=1673559591062: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675373991444	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675373991444	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675373991444	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675373991444	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675373991445	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:41:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:64:16
+_tokenServerExchangeRequest@tokenserverclient.js:243:13
+1675373991445	Sync.ErrorHandler	ERROR	Sync encountered a login error
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+[2023-02-02T21:39:51Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2023-02-02T21:39:51Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2023-02-02T21:39:51Z ERROR viaduct::backend::ffi] Missing HTTP status
+1675374097035	geckodriver	INFO	Listening on 127.0.0.1:7090
+1675374101692	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7091" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofiletI0azY"
+1675374101886	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675374101890	Marionette	INFO	Listening on port 7101
+Read port: 7101
+WebDriver BiDi listening on ws://127.0.0.1:7091
+1675374101953	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:7091/devtools/browser/2d3050d9-a4fa-4f26-a074-fabb151c90d6
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\User\AppData\Local\Temp\rust_mozprofiletI0azY\thumbnails) because it does not exist
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript error: moz-extension://f5ea76c8-bf71-4b69-aefd-d93c45b95576/contextmenuhlpr.js, line 8: TypeError: selection is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860777
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860775
+1675375801765	Marionette	INFO	Stopped listening on port 7101
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+dler	ERROR	Sync encountered a login error
+1675374174957	FirefoxAccounts	ERROR	error POSTing /oauth/destroy: {"error":{},"errorString":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]","message":null,"code":null,"errno":null}
+1675374174958	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675374174958	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675374174958	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675374174958	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675374174958	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1675374174958	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_ABORT\"  nsresult: \"0x80004004 (NS_ERROR_ABORT)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4778: TypeError: win is null
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+[2023-02-02T21:42:55Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2023-02-02T21:42:55Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2023-02-02T21:42:55Z ERROR viaduct::backend::ffi] Missing HTTP status
+1675375933194	geckodriver	INFO	Listening on 127.0.0.1:11855
+1675375937893	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11856" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileycGpSK"
+1675375938123	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675375938127	Marionette	INFO	Listening on port 11865
+WebDriver BiDi listening on ws://127.0.0.1:11856
+Read port: 11865
+1675375938304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+DevTools listening on ws://127.0.0.1:11856/devtools/browser/1112e686-b4fa-40c8-b31b-67d000784f77
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.2M8NMsaGGUo.O/am=AUAACA/d=1/rs=AIp04d_EjaJedQsTv09WWNmN-vX9Ez6dUg/m=b line 161 > eval, line 11: Error: zl
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860742
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860740
+1675375978438	Marionette	INFO	Stopped listening on port 11865
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 318: TypeError: this.pushManager._window is null
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 99: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]'[JavaScript Error: "this.pushManager._window is null" {file: "resource://gre/modules/Push.sys.mjs" line: 318}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

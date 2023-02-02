@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Net;
 using System.Net.Mail;
+using System.Threading;
 using System.Web;
 using System.Web.Mvc;
 
@@ -19,8 +20,10 @@ namespace E_TICKET.Controllers
         private string journey_to;
         private string departure;
         private string sit_class;
+        private static string tkid;
+        private static string mobi;
         private static List<Home> L = new List<Home>(); //Static list For Home page
-
+        PaymentExeController Pec = new PaymentExeController();
         public object NetworkCredintial { get; private set; }  // TO send email
 
         [HttpGet]
@@ -42,7 +45,11 @@ namespace E_TICKET.Controllers
             }
             TempData["a"] = L;
             conn.Close();
-
+            //void  runPec()
+            //{
+            //    Pec.Get();
+            //}
+            //runPec();
             return View();
         }
 
@@ -69,12 +76,9 @@ namespace E_TICKET.Controllers
             TempData["a"] = L;
             conn.Close();
             readFor_TrainSearchResult();
-            if (isLogin)
-            {
-                return View("TrainSearchResult");
-            }
-            ViewBag.Message = "Plase Login.";// login req to go next step
-            return View();
+            
+            return View("TrainSearchResult");
+            
         }
         public ActionResult Resister(Resister reg)
         {
@@ -231,19 +235,19 @@ namespace E_TICKET.Controllers
 
             return View();
         }
-
-        public ActionResult TrainSearchResult(TrainSearchResult tsr)
-        {
+       
+        public ActionResult TrainSearchResult()
+        {   
             readFor_TrainSearchResult();
-            
             return View();
         }
+        
 
         public void readFor_TrainSearchResult()
         {
             SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH\\SQLEXPRESS;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
             conn.Open();
-            SqlCommand com = new SqlCommand("SELECT Train.Train_No,Coach.Seat_No,Train.Train_Name,Train.Departure_Station,Train.Arrival_Station,Train.Departure_time,Train.Arrival_Time,Coach.Coach_fare,Coach.Class,Coach.Coach_Name FROM Train INNER JOIN Coach ON Train.Train_No = Coach.Train_No and Train.Departure_Station='"+journey_from+"' and Train.Arrival_Station='"+journey_to+"' and Coach.Class = '"+sit_class+ "'", conn);
+            SqlCommand com = new SqlCommand("SELECT Train.Train_No,Coach.Seat_No,Train.Train_Name,Train.Departure_Station,Train.Arrival_Station,Train.Departure_time,Train.Arrival_Time,Coach.Coach_fare,Coach.Class,Coach.Coach_Name ,Coach.Ticket_ID FROM Train INNER JOIN Coach ON Train.Train_No = Coach.Train_No and Coach.isBooked = 'false'and Train.Departure_Station='"+journey_from+"' and Train.Arrival_Station='"+journey_to+"' and Coach.Class = '"+sit_class+ "'", conn);
             com.ExecuteNonQuery();
             SqlDataReader sdr = com.ExecuteReader();
 
@@ -251,11 +255,161 @@ namespace E_TICKET.Controllers
 
             while (sdr.Read())
             {
-                L.Add(new TrainSearchResult { Train_No = (int)sdr["Train_No"], Seat_No = (int)sdr["Seat_No"], Train_Name = sdr["Train_Name"].ToString(), Departure_Station = sdr["Departure_Station"].ToString(), Arrival_Station = sdr["Arrival_Station"].ToString(), Departure_time = sdr["Departure_time"].ToString(), Arrival_Time = sdr["Arrival_Time"].ToString(), Coach_fare = (int)sdr["Coach_fare"], Class = sdr["Class"].ToString(), Coach_Name = sdr["Coach_Name"].ToString() });
+                L.Add(new TrainSearchResult { Train_No = (int)sdr["Train_No"], Seat_No = (int)sdr["Seat_No"], Train_Name = sdr["Train_Name"].ToString(), Departure_Station = sdr["Departure_Station"].ToString(), Arrival_Station = sdr["Arrival_Station"].ToString(), Departure_time = sdr["Departure_time"].ToString(), Arrival_Time = sdr["Arrival_Time"].ToString(), Coach_fare = (int)sdr["Coach_fare"], Class = sdr["Class"].ToString(), Coach_Name = sdr["Coach_Name"].ToString(),Ticket_ID=sdr["Ticket_ID"].ToString() });
             }
             TempData["tsr"] = L;
-            conn.Close();
+            conn.Close(); 
         }
+        public ActionResult BuyTicket(BuyTicket bt)
+        {   
+            tkid = bt.Ticket_ID;
+            mobi = bt.mobile;
+            if (true)
+            {
+                SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH\\SQLEXPRESS;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+                conn.Open();
+                SqlCommand com = new SqlCommand("Select * from tb_user where mobile = '" + mobi + "'", conn);
+                com.ExecuteNonQuery();
+                SqlDataReader sdr = com.ExecuteReader();
+
+                while (sdr.Read())
+                {
+
+                    LoginFlag = true;
+                    break;
+                }
+                conn.Close();
+
+                conn.Open();
+                SqlCommand comm = new SqlCommand("Insert into GetRequest(Ticket_ID, mobile) values('" + tkid + "','" + mobi + "')", conn);
+                comm.ExecuteNonQuery();
+                conn.Close();
+
+                if (isLogin && LoginFlag)
+                {
+                    callPaymentExe();
+                    conn.Open();
+                    SqlCommand commm = new SqlCommand("UPDATE Coach SET isBooked = 'true' WHERE Ticket_ID = '" + tkid + "'", conn);
+                    commm.ExecuteNonQuery();
+                    conn.Close();
+                }
+            }
+            return View();
+        }
+        
+        public ActionResult PaymentUi(PaymentUi ui)
+        {
+            string getTicket = ui.isPressed;
+            string usrMail="";
+            string usrName = "";
+            string usrmobile;
+            string usrnid;
+
+            string Train_No="";
+            string Coach_Name="";
+            string Seat_No="";
+            string Coach_fare="";
+            string Class="";
+
+            List<PaymentUi> PL = new List<PaymentUi>();
+            bool payed=false;
+            
+            if (getTicket == "yes")
+            {
+                SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH\\SQLEXPRESS;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+                conn.Open();
+
+
+
+
+
+                SqlCommand com = new SqlCommand("Select * from tempData where phn_num = '" + mobi + "'", conn);
+                com.ExecuteNonQuery();
+                SqlDataReader sdr = com.ExecuteReader();
+
+                while (sdr.Read())
+                {
+
+                    payed = true;
+                    break;
+                }
+                conn.Close();
+
+                if (!payed)
+                {
+                    conn.Open();
+                    SqlCommand commm = new SqlCommand("UPDATE Coach SET isBooked = 'false' WHERE Ticket_ID = '" + tkid + "'", conn);
+                    commm.ExecuteNonQuery();
+                    conn.Close();
+                }
+                else
+                {
+                    conn.Open();
+                    SqlCommand comx = new SqlCommand("Select * from tb_user where mobile = '"+mobi+"'", conn);
+                    comx.ExecuteNonQuery();
+                    SqlDataReader read = comx.ExecuteReader();
+                    
+                    while (read.Read())
+                    {
+
+                        usrName = read["name"].ToString();
+                        usrmobile = read["mobile"].ToString();
+                        usrMail = read["email"].ToString();
+                        usrnid = read["nid"].ToString();
+                    }
+                    conn.Close();
+
+                    conn.Open();
+                    SqlCommand comxx = new SqlCommand("Select * from Coach where Ticket_ID = '" + tkid + "'", conn);
+                    comx.ExecuteNonQuery();
+                    SqlDataReader readx = comxx.ExecuteReader();
+
+                    while (readx.Read())
+                    {
+
+                        Seat_No = readx["Seat_No"].ToString();
+                        Coach_Name = readx["Coach_Name"].ToString();
+                        Class = readx["Class"].ToString();
+                        Coach_fare = readx["Coach_fare"].ToString();
+                        Train_No = readx["Train_no"].ToString();
+
+                    }
+                    conn.Close();
+
+                    using (MailMessage mm = new MailMessage("aust.decipher@gmail.com", usrMail))
+                    {
+                        mm.Subject = "E-Ticket customer Service";
+                        mm.Body = "Dear"+usrName+ ",\r\nYour Ticket ID:" + tkid+" is confirmed. Please Collect Your Ticket From Counter.\r\nTicket Info:\r\nSeat No: "+Seat_No+ "\r\nTrain NO: " + Train_No+ "\r\nClass: " + Class+ "\r\nCoach_Name: " + Coach_Name+ "\r\nCoach Fare: " + Coach_fare+ "\r\n ";
+
+                        mm.IsBodyHtml = false;
+
+                        using (SmtpClient smtp = new SmtpClient())
+                        {
+                            smtp.Host = "smtp.gmail.com";
+                            smtp.EnableSsl = true;
+                            NetworkCredential cred = new NetworkCredential("aust.decipher@gmail.com", "sijhpnswfycrjsvx");
+                            smtp.UseDefaultCredentials = false;
+                            smtp.Credentials = cred;
+                            smtp.Port = 587;
+                            smtp.Send(mm);
+                        }
+
+                    }
+                    ViewBag.Message = "Successful." + tkid;
+                }
+            }
+            //ViewBag.Message = "Successful." + tkid;
+            return View();
+           
+        }
+
+        public void callPaymentExe()
+        {
+            
+            Pec.Get();
+        }
+
+       
 
         /*getter and setter method*/
 

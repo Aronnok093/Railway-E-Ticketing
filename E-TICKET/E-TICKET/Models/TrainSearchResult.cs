@@ -17,7 +17,7 @@ namespace E_TICKET.Models
         public int Coach_fare {get; set;}
         public String Class {get; set;}
         public String Coach_Name {get; set;}
-
+        public String Ticket_ID { get; set; }
 
     }
 }

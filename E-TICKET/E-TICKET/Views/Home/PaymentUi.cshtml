@@ -1,0 +1,75 @@
+﻿@model E_TICKET.Models.PaymentUi
+
+
+
+<!DOCTYPE html>
+
+<style>
+    .main {
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;
+        background-color: #e6e6e6;
+        text-align: center;
+    }
+</style>
+
+<html>
+<body>
+
+    <h1>Payment</h1>
+    <div class="main">
+        <form method="post">
+
+
+            <div class="btnGroup">
+                <span class="Btn" id="verifiBtn">
+                    <button onclick="window.open('https://forms.gle/hHG8iDnm6T9NMDveA', '_blank')"></button>
+                        <input type="hidden" id="isPressed" name="isPressed" value="yes"><br>
+                </span>
+                <span class="timer">
+                    <span id="counter"></span>
+                </span>
+            </div>
+
+        </form>
+        <p>Complete Your Payment in 60s.<br /><strong>Bikash Account:01724615130</strong></p>
+    </div>
+
+
+    <script>
+
+        function countdown() {
+            var seconds = 59;
+            function tick() {
+                var counter = document.getElementById("counter");
+                seconds--;
+                counter.innerHTML = "0:" + (seconds < 10 ? "0" : "") + String(seconds);
+                if (seconds > 0) {
+                    setTimeout(tick, 1000);
+                }
+
+                else {
+                    document.getElementById("verifiBtn").innerHTML = `<input type="submit" value="Get Ticket">`;
+                    document.getElementById("counter").innerHTML = "";
+                }
+
+            }
+            tick();
+        }
+        countdown();
+
+    </script>
+    <center>
+        @if (ViewBag.Message != null)
+        {
+            <script type="text/javascript">
+                    window.onload = function () {
+                    alert("@ViewBag.Message");
+                };
+            </script>
+        }
+    </center>
+</body>
+</html>

@@ -99,7 +99,28 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\warn-PaymentGetWay2.0.txt" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\xref-PaymentGetWay2.0.html" />
+    <Content Include="PaymentGetWay\dist\PaymentGetWay2.0.exe" />
+    <Content Include="PaymentGetWay\dist\validated_data.csv" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\Analysis-00.toc" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\base_library.zip" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\EXE-00.toc" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\localpycs\pyimod01_archive.pyc" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\localpycs\pyimod02_importers.pyc" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\localpycs\pyimod03_ctypes.pyc" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\localpycs\pyimod04_pywin32.pyc" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\localpycs\struct.pyc" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\PaymentGetWay2.0.exe.manifest" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\PaymentGetWay2.0.pkg" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\PKG-00.toc" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\PYZ-00.pyz" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\PYZ-00.toc" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\Tree-00.toc" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\Tree-01.toc" />
+    <Content Include="PaymentGetWay\build\PaymentGetWay2.0\Tree-02.toc" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="PaymentGetWay\dist\geckodriver.exe" />
     <Content Include="photo\home_background.jpg" />
     <Content Include="photo\logo.png" />
     <Content Include="Scripts\bootstrap.js" />
@@ -116,13 +137,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\APIController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PaymentExeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\BuyTicket.cs" />
     <Compile Include="Models\ContactUs.cs" />
     <Compile Include="Models\Home.cs" />
     <Compile Include="Models\Login.cs" />
+    <Compile Include="Models\PaymentUi.cs" />
     <Compile Include="Models\Resister.cs" />
     <Compile Include="Models\TrainInformation.cs" />
     <Compile Include="Models\TrainSearchResult.cs" />
@@ -140,6 +165,8 @@
     <Content Include="Views\Home\ContactUs.cshtml" />
     <Content Include="Views\Home\TrainInformation.cshtml" />
     <Content Include="Views\Home\TrainSearchResult.cshtml" />
+    <Content Include="Views\Home\BuyTicket.cshtml" />
+    <Content Include="Views\Home\PaymentUi.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -149,6 +176,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="PaymentGetWay\build\PaymentGetWay2\" />
+    <Folder Include="Views\PaymentExe\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

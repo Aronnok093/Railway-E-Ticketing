@@ -30,7 +30,7 @@
         border-radius: 15px 15px 0 0;
     }
 
-    ;
+    
     table tr:not(:first-child) {
         cursor: pointer;
         transition: all .25s ease-in-out;
@@ -41,6 +41,11 @@
     }
     .st_no{
         background-color:orangered;
+    }
+    .by_tck{
+        background-color:rebeccapurple;
+        width:100px;
+        padding:3px;
     }
 </style>
 
@@ -53,42 +58,10 @@
 <body>
     <div class="heading">
         <h1>Search Result</h1>
-        <p>Select your ticket and then submit for next step</p>
+        <h4>Don't forget to note your Ticket ID From Search Result</h4>
+        <p>Buy Ticket From Ticket Section.</p>
     </div>
-    <div class="frm">
-        <form id="#" method="post">
-            <Label>Train No:</Label>
-            <input type="text" name="Train_No" id="Train_No">
-
-            <Label>Seat No:</Label>
-            <input type="text" name="Seat_No" id="Seat_No">
-
-            <Label>Train Name:</Label>
-            <input type="text" name="Train_Name" id="Train_Name"><br><br>
-
-            <Label>Departure Station:</Label>
-            <input type="text" name="Departure_Station" id="Departure_Station">
-
-            <Label>Arrival Station:</Label>
-            <input type="text" name="Arrival_Station" id="Arrival_Station"><br><br>
-
-            <Label>Departure Time:</Label>
-            <input type="text" name="Departure_time" id="Departure_time">
-
-            <Label>Arrival Time:</Label>
-            <input type="text" name="Arrival_Time" id="Arrival_Time">
-
-            <Label>Coach Fare:</Label>
-            <input type="text" name="Coach_fare" id="Coach_fare"><br><br>
-
-            <Label>Class:</Label>
-            <input type="text" name="Class" id="Class">
-
-            <Label>Coach_Name:</Label>
-            <input type="text" name="Coach_Name" id="Coach_Name"><br><br>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
+    
     <div class="tbl">
         <h3>Select Your Ticket:</h3>
         <table id="table" border="1">
@@ -103,6 +76,7 @@
                 <th class="st_no">Fare</th>
                 <th>Class</th>
                 <th class="st_no">Coach_Name</th>
+                <th>Ticket ID</th>
 
             </tr>
             @foreach (var item in TempData["tsr"] as List<E_TICKET.Models.TrainSearchResult>)
@@ -118,29 +92,14 @@
                 <td class="st_no">@Html.DisplayFor(modelItem => item.Coach_fare)</td>
                 <td>@Html.DisplayFor(modelItem => item.Class)</td>
                 <td class="st_no">@Html.DisplayFor(modelItem => item.Coach_Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Ticket_ID)</td>
             </tr>
             }
         </table>
-
+        <div class="by_tck">
+            <a href="/Home/BuyTicket">Buy Ticket</a>
+        </div>
     </div>
-    <script>
-        var table = document.getElementById('table');
-        for(var i=1;i<table.rows.length;i++)
-        {
-            table.rows[i].onclick=function(){
-                document.getElementById("Train_No").value = this.cells[0].innerHTML;
-                document.getElementById("Seat_No").value = this.cells[1].innerHTML
-                document.getElementById("Train_Name").value=this.cells[2].innerHTML;
-                document.getElementById("Departure_Station").value=this.cells[3].innerHTML;
-                document.getElementById("Arrival_Station").value=this.cells[4].innerHTML;
-                document.getElementById("Departure_time").value=this.cells[5].innerHTML;
-                document.getElementById("Arrival_Time").value=this.cells[6].innerHTML;
-                document.getElementById("Coach_fare").value=this.cells[7].innerHTML;
-                document.getElementById("Class").value=this.cells[8].innerHTML;
-                document.getElementById("Coach_Name").value=this.cells[9].innerHTML;
-            };
-        }
-    </script>
 </body>
 </html>
 
