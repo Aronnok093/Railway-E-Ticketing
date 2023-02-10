@@ -35,9 +35,11 @@ build complex functionality-contained applications, our railway e-ticketing only
 
 :point_right:***ASP.NET MVC <br/>***
 
-:point_right:***MSSQL Server 2008 <br/>***
+:point_right:***MSSQL Server <br/>***
 
 :point_right:***ADO.NET CONNECTED ARCHITECTURE<br/>***
+
+:point_right:***Python Library<br/>***
 
 ![Screenshot (59)](https://user-images.githubusercontent.com/64925270/215279889-3b8ccb25-87da-4a71-b1bc-95f9aead9586.png)
 ![Screenshot (60)](https://user-images.githubusercontent.com/64925270/215279949-18468db7-5268-4605-a1d8-acc000287747.png)
