@@ -35,7 +35,7 @@ build complex functionality-contained applications, our railway e-ticketing only
 
 :point_right:***ASP.NET MVC <br/>***
 
-:point_right:***MSSQL Server 2008 <br/>***
+:point_right:***MSSQL Server <br/>***
 
 :point_right:***ADO.NET CONNECTED ARCHITECTURE<br/>***
 
