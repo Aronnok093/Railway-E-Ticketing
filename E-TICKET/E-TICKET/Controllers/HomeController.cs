@@ -1,4 +1,7 @@
 ﻿using E_TICKET.Models;
+using iText.Kernel.Pdf;
+using iText.Layout;
+using iText.Layout.Element;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -16,9 +19,9 @@ namespace E_TICKET.Controllers
         // GET: Home
         private bool LoginFlag;
         private static bool isLogin; // To know if user logged in or not
-        private string journey_from;
-        private string journey_to;
-        private string departure;
+        private static string journey_from;
+        private static string journey_to;
+        private static string departure;
         private string sit_class;
         private static string tkid;
         private static string mobi;
@@ -29,7 +32,7 @@ namespace E_TICKET.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH\\SQLEXPRESS;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
             conn.Open();
 
             /*read all districts from database*/
@@ -38,7 +41,7 @@ namespace E_TICKET.Controllers
             SqlDataReader sdr = com.ExecuteReader();
 
             List<Home> L = new List<Home>();
-
+           
             while (sdr.Read())
             {
                 L.Add(new Home { From = sdr["DistrictName"].ToString() });
@@ -62,7 +65,7 @@ namespace E_TICKET.Controllers
             departure = rd.Date;
             sit_class = rd.Sit_class;
             //ViewBag.Message = journey_from + " " + journey_to + " " + departure+" "+sit_class+" "+isLogin;
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH\\SQLEXPRESS;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456"); /*read all districts from database*/
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456"); /*read all districts from database*/
             conn.Open();
 
 
@@ -82,7 +85,7 @@ namespace E_TICKET.Controllers
         }
         public ActionResult Resister(Resister reg)
         {
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH\\SQLEXPRESS;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
             conn.Open();
 
 
@@ -128,7 +131,7 @@ namespace E_TICKET.Controllers
 
         public ActionResult Login(Login lgn)
         {
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH\\SQLEXPRESS;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
             conn.Open();
 
             string mobile = lgn.mobile;
@@ -163,7 +166,7 @@ namespace E_TICKET.Controllers
             string name = ct.name;
             string msg = ct.msg;
 
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH\\SQLEXPRESS;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
             conn.Open();
             if (!string.IsNullOrEmpty(email)&&!string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(msg))
             {
@@ -199,7 +202,7 @@ namespace E_TICKET.Controllers
 
         public ActionResult TrainInformation(TrainInformation ti)
         {
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH\\SQLEXPRESS;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
             conn.Open();
 
             string t_name=ti.Train_Name;
@@ -245,7 +248,7 @@ namespace E_TICKET.Controllers
 
         public void readFor_TrainSearchResult()
         {
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH\\SQLEXPRESS;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
             conn.Open();
             SqlCommand com = new SqlCommand("SELECT Train.Train_No,Coach.Seat_No,Train.Train_Name,Train.Departure_Station,Train.Arrival_Station,Train.Departure_time,Train.Arrival_Time,Coach.Coach_fare,Coach.Class,Coach.Coach_Name ,Coach.Ticket_ID FROM Train INNER JOIN Coach ON Train.Train_No = Coach.Train_No and Coach.isBooked = 'false'and Train.Departure_Station='"+journey_from+"' and Train.Arrival_Station='"+journey_to+"' and Coach.Class = '"+sit_class+ "'", conn);
             com.ExecuteNonQuery();
@@ -266,7 +269,7 @@ namespace E_TICKET.Controllers
             mobi = bt.mobile;
             if (true)
             {
-                SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH\\SQLEXPRESS;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+                SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
                 conn.Open();
                 SqlCommand com = new SqlCommand("Select * from tb_user where mobile = '" + mobi + "'", conn);
                 com.ExecuteNonQuery();
@@ -302,21 +305,21 @@ namespace E_TICKET.Controllers
             string getTicket = ui.isPressed;
             string usrMail="";
             string usrName = "";
-            string usrmobile;
-            string usrnid;
+            string usrmobile="";
+            string usrnid="";
 
             string Train_No="";
             string Coach_Name="";
             string Seat_No="";
             string Coach_fare="";
             string Class="";
-
+           
             List<PaymentUi> PL = new List<PaymentUi>();
             bool payed=false;
             
-            if (getTicket == "yes")
+            if (getTicket == "Get Ticket")
             {
-                SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH\\SQLEXPRESS;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+                SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
                 conn.Open();
 
 
@@ -396,6 +399,8 @@ namespace E_TICKET.Controllers
 
                     }
                     ViewBag.Message = "Successful." + tkid;
+                    //Ticket pdf to the desktop
+                    PrintTicket(Train_No,Coach_Name,Class,Coach_fare,Seat_No,usrName,usrmobile,usrnid,usrMail);
                 }
             }
             //ViewBag.Message = "Successful." + tkid;
@@ -409,60 +414,32 @@ namespace E_TICKET.Controllers
             Pec.Get();
         }
 
+        public void PrintTicket(string train_no,string coach_name,string Class,string fare,string seat_no,string name,string phn,string nid,string mail)
+        {
+            string path = @"C:\Users\User\Desktop\ticket.pdf";
+            PdfWriter wirter = new PdfWriter(path);
+            PdfDocument pdf = new PdfDocument(wirter);
+            Document document = new Document(pdf);
+            document.Add(new Paragraph("Journey Information: "));
+            document.Add(new Paragraph("________________________________________________________"));
+            document.Add(new Paragraph("Date: "+ departure));
+            document.Add(new Paragraph("Train Name And Number: "+train_no));
+            document.Add(new Paragraph("From Station: "+journey_from));
+            document.Add(new Paragraph("To Station: "+journey_to));
+            document.Add(new Paragraph("Class Name: "+Class));
+            document.Add(new Paragraph("Seat No: "+seat_no));
+            document.Add(new Paragraph("Fare: "+fare));
+            document.Add(new Paragraph("________________________________________________________"));
+            document.Add(new Paragraph("Passenger Information: "));
+            document.Add(new Paragraph("Name: " + name));
+            document.Add(new Paragraph("Phone Number: " + phn));
+            document.Add(new Paragraph("NID: " + nid));
+            document.Add(new Paragraph("Mail: " + mail));
+            document.Add(new Paragraph("________________________________________________________"));
+            document.Close();
+        }
        
 
-        /*getter and setter method*/
-
-        public bool getLoginFlag()
-        {
-            return isLogin;
-        }
-
-        public void setLoginFlag(bool bln)
-        {
-            isLogin = bln;
-        }
-
-        public string getJourneyFrom()
-        {
-            return journey_from;
-        }
-
-        public void setJourneyFrom(string journey_from)
-        {
-            this.journey_from = journey_from;
-        }
-
-        public string getJourneyTo()
-        {
-            return journey_to;
-        }
-
-        public void setJourneyTo(string journey_to)
-        {
-            this.journey_to = journey_to;
-        }
-
-        public string getDeparture()
-        {
-            return departure;
-        }
-
-        public void setDeparture(string departure)
-        {
-            this.departure = departure;
-        }
-
-        public string getSit_class()
-        {
-            return sit_class;
-        }
-
-        public void setSit_class(string sit_class)
-        {
-            this.sit_class = sit_class;
-        }
-        
 
     }
 }

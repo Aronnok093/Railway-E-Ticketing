@@ -18,7 +18,7 @@ namespace E_TICKET.Controllers
         public void RunExe()
         { // try
            // {
-                var fileName = HttpContext.Current.Server.MapPath("/PaymentGetWay/dist/PaymentGetway2.0.exe");
+                var fileName = HttpContext.Current.Server.MapPath("/PaymentGetWay/dist/PaymentGetway.exe");
                 Process process = new Process();
                 process.StartInfo.RedirectStandardOutput = true;
                 process.StartInfo.UseShellExecute = false;
