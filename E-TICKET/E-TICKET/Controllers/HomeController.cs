@@ -28,12 +28,21 @@ namespace E_TICKET.Controllers
         private static List<Home> L = new List<Home>(); //Static list For Home page
         PaymentExeController Pec = new PaymentExeController();
         public object NetworkCredintial { get; private set; }  // TO send email
+        SqlConnection conn;
+
+        //Sql server connection string
+        private void StartSql()
+        {
+             conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+             conn.Open();
+        }
 
         [HttpGet]
         public ActionResult Index()
         {
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
-            conn.Open();
+            //SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+            //conn.Open();
+            StartSql();
 
             /*read all districts from database*/
             SqlCommand com = new SqlCommand("Select * from Districts", conn);
@@ -59,15 +68,15 @@ namespace E_TICKET.Controllers
         [HttpPost]
         public ActionResult Index(Home rd)
         {
-            
+            DateTime dateTime = DateTime.UtcNow.Date;
             journey_from = rd.From;
             journey_to = rd.To;
             departure = rd.Date;
             sit_class = rd.Sit_class;
-            //ViewBag.Message = journey_from + " " + journey_to + " " + departure+" "+sit_class+" "+isLogin;
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456"); /*read all districts from database*/
-            conn.Open();
-
+            ViewBag.Message = dateTime;
+            //SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456"); /*read all districts from database*/
+            //conn.Open();
+            StartSql();
 
             SqlCommand com = new SqlCommand("Select * from Districts", conn);
             com.ExecuteNonQuery();
@@ -85,9 +94,9 @@ namespace E_TICKET.Controllers
         }
         public ActionResult Resister(Resister reg)
         {
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
-            conn.Open();
-
+            //SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+            //conn.Open();
+            StartSql();
 
 
             string name = reg.name;
@@ -131,9 +140,9 @@ namespace E_TICKET.Controllers
 
         public ActionResult Login(Login lgn)
         {
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
-            conn.Open();
-
+            // SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+            // conn.Open();
+            StartSql();
             string mobile = lgn.mobile;
             string pass = lgn.pass;
 
@@ -166,8 +175,9 @@ namespace E_TICKET.Controllers
             string name = ct.name;
             string msg = ct.msg;
 
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
-            conn.Open();
+            //SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+            //conn.Open();
+            StartSql();
             if (!string.IsNullOrEmpty(email)&&!string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(msg))
             {
                 SqlCommand comm = new SqlCommand("Insert into contactUs(name,email,msg) values('" + name + "','" + email + "','" + msg + "')", conn);
@@ -202,9 +212,9 @@ namespace E_TICKET.Controllers
 
         public ActionResult TrainInformation(TrainInformation ti)
         {
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
-            conn.Open();
-
+            // SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+            // conn.Open();
+            StartSql();
             string t_name=ti.Train_Name;
 
             /*read all Train name from database*/
@@ -248,8 +258,9 @@ namespace E_TICKET.Controllers
 
         public void readFor_TrainSearchResult()
         {
-            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
-            conn.Open();
+            //SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+            // conn.Open();
+            StartSql();
             SqlCommand com = new SqlCommand("SELECT Train.Train_No,Coach.Seat_No,Train.Train_Name,Train.Departure_Station,Train.Arrival_Station,Train.Departure_time,Train.Arrival_Time,Coach.Coach_fare,Coach.Class,Coach.Coach_Name ,Coach.Ticket_ID FROM Train INNER JOIN Coach ON Train.Train_No = Coach.Train_No and Coach.isBooked = 'false'and Train.Departure_Station='"+journey_from+"' and Train.Arrival_Station='"+journey_to+"' and Coach.Class = '"+sit_class+ "'", conn);
             com.ExecuteNonQuery();
             SqlDataReader sdr = com.ExecuteReader();
@@ -269,8 +280,9 @@ namespace E_TICKET.Controllers
             mobi = bt.mobile;
             if (true)
             {
-                SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
-                conn.Open();
+                //SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+                //conn.Open();
+                StartSql();
                 SqlCommand com = new SqlCommand("Select * from tb_user where mobile = '" + mobi + "'", conn);
                 com.ExecuteNonQuery();
                 SqlDataReader sdr = com.ExecuteReader();
@@ -319,9 +331,9 @@ namespace E_TICKET.Controllers
             
             if (getTicket == "Get Ticket")
             {
-                SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
-                conn.Open();
-
+                //SqlConnection conn = new SqlConnection("Data Source=DESKTOP-03NNHMH;Initial Catalog=RAILWAY_DB;User ID=sa;Password=123456");
+                //conn.Open();
+                StartSql();
 
 
 

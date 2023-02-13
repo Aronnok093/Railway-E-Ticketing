@@ -219,6 +219,7 @@
     <Compile Include="Controllers\APIController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PaymentExeController.cs" />
+    <Compile Include="Controllers\TimeDateController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -257,6 +258,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="PaymentGetWay\build\PaymentGetWay2\" />
     <Folder Include="Views\PaymentExe\" />
+    <Folder Include="Views\TimeDate\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

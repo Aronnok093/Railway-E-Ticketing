@@ -1,5 +1,14 @@
 ﻿@model E_TICKET.Models.Home
+@using E_TICKET.Controllers
+@{ 
+    TimeDateController dateController = new TimeDateController();
+    string date = dateController.Date();
+    string yr = date.Substring(6, 4);
+    string mm = date.Substring(3, 2);
+    string dd = date.Substring(0, 2);
+    string new_date = yr + "-" + mm + "-" + dd;
 
+}
 <!DOCTYPE html>
 <style>
     /*for main div*/
@@ -139,7 +148,7 @@
 
                     <div class="contain_three">
                         <label for="Date">Date</label>
-                        <input type="date" id="Date" name="Date">
+                        <input type="date" id="Date" name="Date" min="@new_date" max="@new_date">
                     </div>
 
                     <div class="contain_four">
@@ -169,17 +178,5 @@
 
         </div>
     </div>
-
-    <center>
-        @if (ViewBag.Message != null)
-        {
-            <script type="text/javascript">
-                    window.onload = function () {
-                    alert("@ViewBag.Message");
-                };
-            </script>
-        }
-    </center>
-
 </body>
 </html>

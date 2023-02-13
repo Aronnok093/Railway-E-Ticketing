@@ -1421,3 +1421,32 @@ console.error: "Sync encountered an error - see about:sync-log for the log file.
 [2023-02-10T15:59:12Z ERROR viaduct::backend::ffi] Missing HTTP status
 [2023-02-10T15:59:12Z ERROR viaduct::backend::ffi] Missing HTTP status
 [2023-02-10T15:59:12Z ERROR viaduct::backend::ffi] Missing HTTP status
+1676269889106	geckodriver	INFO	Listening on 127.0.0.1:10187
+1676269897186	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "10188" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileDel6hZ"
+1676269897442	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676269897447	Marionette	INFO	Listening on port 10197
+WebDriver BiDi listening on ws://127.0.0.1:10188
+Read port: 10197
+1676269897687	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+DevTools listening on ws://127.0.0.1:10188/devtools/browser/fb576096-6e2e-485b-8057-b2ef2e1bafc2
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860417
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860416
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 580: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript warning: moz-extension://283a7682-d3c7-4bc5-91d0-8ec21db5c47b/abp-background.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.gstatic.com/_/messagesweb/_/js/k=messagesweb.mw.en.a-aXry9An7M.O/am=AYAAEA/d=1/rs=AIp04d8K9YxQm0eaWW5_XDxafz6WWwgiBQ/m=b, line 1122: Error: Unknown message (Attempt: 1)
+JavaScript warning: https://www.google.com/js/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 4482 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 672 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript warning: https://www.google.com/js/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 6352 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit jid1-NIfFY2CA8fy1tg@jetpack.412316860759
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 115: Error: sendRemoveListener on closed conduit fdm_ffext2@freedownloadmanager.org.412316860757
+1676270680415	Marionette	INFO	Stopped listening on port 10197
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Push.sys.mjs, line 264: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/PushComponents.sys.mjs, line 90: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "can't access dead object" {file: "resource://gre/modules/Push.sys.mjs" line: 264}]'[JavaScript Error: "can't access dead object" {file: "resource://gre/modules/Push.sys.mjs" line: 264}]' when calling method: [nsIPushSubscriptionCallback::onPushSubscription]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-sync/engines/extension-storage.js, line 54: TypeError: lazy.Svc.Prefs is undefined
